@@ -7,3 +7,5 @@ a = 6;
 let b = 1;
 // Тут ошибки не будет
 b = 5;
+const erin = 3;
+let h = "Mao";

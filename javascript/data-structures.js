@@ -19,3 +19,13 @@ let array1 = [1, "sdf", object1];
 
 // К элементам массива мы обращаемся через ИНДЕКС.
 console.log(array1[0]);
+
+const objectCats = {
+  mao: "1",
+  erin: "5"
+}
+console.log(objectCats.erin)
+console.log(objectCats["mao"])
+
+let arraycats = ["Mao", "Erin"]
+console.log(arraycats[1])
