@@ -22,10 +22,14 @@ console.log(array1[0]);
 
 const objectCats = {
   mao: "1",
-  erin: "5"
-}
-console.log(objectCats.erin)
-console.log(objectCats["mao"])
+  erin: "5",
+  // Бориса еще нет
+  boris: null,
+};
+console.log(objectCats.erin);
+// Не объявлен барсик
+console.log(objectCats.barsik);
+console.log(objectCats["mao"]);
 
-let arraycats = ["Mao", "Erin"]
-console.log(arraycats[1])
+let arraycats = ["Mao", "Erin"];
+console.log(arraycats[1]);
